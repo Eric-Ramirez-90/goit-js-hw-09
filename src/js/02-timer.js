@@ -23,7 +23,7 @@ const options = {
   minuteIncrement: 1,
   onClose(selectedDates) {
     selectedDates = Date.parse(refs.dateInput.value);
-    currentTime = options.defaultDate.getTime();
+    const currentTime = options.defaultDate.getTime();
 
     if (currentTime > selectedDates) {
       Notify.failure('Please choose a date in the future');
