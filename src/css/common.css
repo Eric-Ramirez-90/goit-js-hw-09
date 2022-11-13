@@ -25,7 +25,7 @@ input.calendar {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-button[data-start] {
+.timer_start {
   font-size: 20px;
   border-radius: 10px;
   padding: 10px 10px 10px 10px;
@@ -35,7 +35,7 @@ button[data-start] {
   text-align: center;
 }
 
-button[disabled] {
+.timer_start [disabled] {
   cursor: not-allowed;
   color: #ff5549;
   background-color: #d1d1d1;
