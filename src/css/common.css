@@ -35,7 +35,7 @@ input.calendar {
   text-align: center;
 }
 
-.timer_start [disabled] {
+.timer_start[disabled] {
   cursor: not-allowed;
   color: #ff5549;
   background-color: #d1d1d1;
