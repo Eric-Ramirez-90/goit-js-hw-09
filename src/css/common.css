@@ -16,3 +16,52 @@ img {
   display: block;
   max-width: 100%;
 }
+
+input.calendar {
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button[data-start] {
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  background-color: #32c682;
+
+  cursor: pointer;
+  text-align: center;
+}
+
+button[disabled] {
+  cursor: not-allowed;
+  color: #ff5549;
+  background-color: #d1d1d1;
+}
+
+.timer {
+  display: flex;
+  gap: 15px;
+
+  margin-top: 20px;
+}
+.field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.value {
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1;
+}
+
+.label {
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1;
+}
